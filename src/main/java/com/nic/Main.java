@@ -1,8 +1,11 @@
 package com.nic;
 
+import com.nic.boardgame.Position;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("hello wordl!");
+        Position p = new Position(4,5);
+        System.out.println(p);
     }
 }
