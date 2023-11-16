@@ -1,6 +1,9 @@
 package com.nic.chess;
 
-public class ChessException extends RuntimeException{
+import com.nic.boardgame.Board;
+import com.nic.boardgame.BoardException;
+
+public class ChessException extends BoardException {
 
     public ChessException(String msg) {
         super(msg);
