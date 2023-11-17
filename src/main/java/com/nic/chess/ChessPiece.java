@@ -3,7 +3,7 @@ package com.nic.chess;
 import com.nic.boardgame.Board;
 import com.nic.boardgame.Piece;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
