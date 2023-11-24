@@ -2,10 +2,12 @@ package com.nic.chess.pieces;
 
 import com.nic.boardgame.Board;
 import com.nic.boardgame.Position;
+import com.nic.chess.ChessMatch;
 import com.nic.chess.ChessPiece;
 import com.nic.chess.Color;
 
 public class Knight extends ChessPiece {
+
 
 
     public Knight(Board board, Color color) {
@@ -21,6 +23,7 @@ public class Knight extends ChessPiece {
         ChessPiece p = (ChessPiece)getBoard().piece(position);
         return p == null || p.getColor() != getColor();
     }
+
 
     @Override
     public boolean[][] possibleMoves() {
